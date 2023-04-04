@@ -14,9 +14,13 @@ void menu(){
 		
 	switch(opc){
 		case 1: per();
+			break;
 		case 2: Cobrakai();
-		case 3: printf("Obrigado por jogar!!!\n");
+			break;
+		case 3: 
+			printf("Obrigado por jogar!!!\n");
 		opc = 1;
+			break;
 	}
 	}
 
